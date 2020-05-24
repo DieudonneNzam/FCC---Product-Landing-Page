@@ -1,0 +1,55 @@
+html{
+     font: 16px SF Pro Text;
+     font-weight: 400;
+     color: #1f1f1f;
+     letter-spacing: .16px;
+}
+
+
+#header{
+   width: 100%;
+   float:left;
+   height: 120px;
+   margin-bottom:30px;
+   position: fixed;
+}
+#nav-bar{
+    float: right;
+    display: inline-block;
+    
+}
+#nav-bar a{
+     
+    margin-left: 10px;
+}
+
+#header-img{
+    height: 100%;
+}
+
+#description{
+     
+    text-align: center;
+    margin-top: 40px;
+     
+}
+
+#Features li {
+   
+    color: rgb(58, 204, 58);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+}
+
+@media screen (max-width: 640px;) {
+    #video {
+        width: 80%;
+        height 50%;
+    }
+}
